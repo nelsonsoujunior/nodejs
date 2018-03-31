@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /opt/apache-maven-3.1.1/bin:/opt/apache-maven-3.1.1/bin:/opt/apache-maven-3.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/njunior/.local/bin:/home/njunior/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.6.1
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "application-name",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "connect": "^3.6.6",
+      "express": "4.16.2",
+      "jade": "^1.11.0",
+      "middleware": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/export/scripts/node/web/node_modules/connect/package.json'
